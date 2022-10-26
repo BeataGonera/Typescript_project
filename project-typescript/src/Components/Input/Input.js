@@ -3,7 +3,6 @@
 export const Input = ({labelText, inputType, setInputValue}) => {
 
     const handleChange = (event) => {
-        console.log(event.target.value)
         setInputValue(event.target.value)
     }
 
